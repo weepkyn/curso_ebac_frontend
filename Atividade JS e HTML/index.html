@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="formulario">
+    <h1 id="titulo">Atividade HTML + JS</h1>
+    <p> Criação de um formulário com dois campus numéricos <b>A</b> e <b>B</b>, onde o formulário só será válido <b>caso B > A</b></p>
+        <form id="formulario-preenchimento">
+            <input type="number" placeholder="Digite o valor de A" title="Digite um número" id="num-a" required>
+            <input type="number" placeholder="Digite o valor de B" title="Digite um número" id="num-b" required>
+            <h2 class="error">B não é maior que A.</h2>
+            <button id="enviar" type="submit">Enviar</button>
+        </form>
+
+</section>
+<script src="main.js"></script>
+</body>
+</html>
